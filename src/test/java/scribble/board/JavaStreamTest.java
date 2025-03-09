@@ -7,6 +7,13 @@ import scribble.board.demo.stream.DomainData;
 import java.util.List;
 import java.util.stream.Stream;
 
+/**
+ * 자바 스트림의 특징을 알아보자.
+ * 스트림은 지연 연산 (Lazy Evaluation) 을 수행한다.
+ * 그럼 지연 연산은 무엇이고 어떤 원리이며 왜 필요할까?
+ * => 루프 퓨전 (loop fusion)
+ * => 쇼트 서킷 (short circuit)
+ */
 public class JavaStreamTest {
 
 
